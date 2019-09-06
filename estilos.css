@@ -1,26 +1,7 @@
-div.fw200{
-	display: inline-block;	
-	padding-left: 20px;
-	color:red;
-}
-
-
-tr{
-	color:red;
-	font:arial;
-}
-
-
-td{
-		
-}
-
-
-table{
-}
-
-
-strong{
-		color:blue;	
-		
-}
+#crmWebToEntityForm tr , #crmWebToEntityForm td { 
+			padding:6px;
+			border-spacing:0px;
+			border-width:0px;
+			}
+td, tr, table {background-color:orange}
+strong {color:blue;}
