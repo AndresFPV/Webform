@@ -3,5 +3,6 @@
 			border-spacing:0px;
 			border-width:0px;
 			}
-td, tr, table {background-color:orange}
+td, tr, table {color:black}
+input {color:blue}
 strong {color:blue;}
