@@ -1,0 +1,82 @@
+#crmWebToEntityForm table {
+	width:400px;
+	background-color:#ffffff;
+	padding-right:20px;
+	padding-left:20px;
+	padding-top:20px;
+	padding-bottom:20px;
+	}
+
+#crmWebToEntityForm div {
+	
+	}	
+
+#crmWebToEntityForm td { 
+	padding:10px;
+	border-spacing:10px;    
+	border-width:0px;
+	margin: 1.5em;
+	width:100%;
+	}
+
+#crmWebToEntityForm span, input, option{
+	color:#4C4C4C;
+	word-break: break-word; 
+	font-size:12px;
+	font-family:Arial;
+	width:100%;
+	line-height: 22px;
+	height:30px;
+	}
+
+#crmWebToEntityForm select{
+	width:100%;
+	box-sizing:border-box;
+	height:30px;
+	}
+
+/*Titulo*/
+#crmWebToEntityForm strong {
+	color:#FF6600;
+	font-size:16pt;
+	font-family:Arial, sans-serif; 
+	padding:0px;
+	}
+
+#crmWebToEntityForm a {
+	color:#0099CC;
+	}
+
+/*Informacion a visitante*/
+#crmWebToEntityForm p {
+	color:#3e6680;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	width:100%;
+	line-height:18px; 
+	text-align:justify;
+	}
+
+input#privacyTool{
+	width: 13px;
+}
+
+div.dIB{
+	color: #000000; 
+	font-size: 12px; 
+	font-family: sans-serif;
+	display: inline-block;
+	vertical-align: top;
+}
+
+div.fw200 {
+	text-align:justify; 
+	font-size:12px; 
+	font-family:Arial; 
+	vertical-align:top; 
+	margin-top: 3px; 
+	line-height: 14px; 
+	width:90%; 
+	display: inline-block; 
+	color:#000000;
+}
