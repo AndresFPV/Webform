@@ -59,6 +59,8 @@
 /*el checkbox*/
 #privacyTool {
 	width: 14px;
+	height: 14px;
+	padding-right: 5px;
 }
 
 /*Contenedor del checbox*/
