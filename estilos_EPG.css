@@ -5,11 +5,7 @@
 	padding-left:20px;
 	padding-top:20px;
 	padding-bottom:20px;
-	}
-
-#crmWebToEntityForm div {
-	
-	}	
+}
 
 #crmWebToEntityForm td { 
 	padding:10px;
@@ -17,7 +13,7 @@
 	border-width:0px;
 	margin: 1.5em;
 	width:100%;
-	}
+}
 
 #crmWebToEntityForm span, input, option{
 	color:#4C4C4C;
@@ -27,13 +23,16 @@
 	width:100%;
 	line-height: 22px;
 	height:30px;
-	}
+}
 
 #crmWebToEntityForm select{
+	color:#4C4C4C;
 	width:100%;
 	box-sizing:border-box;
 	height:30px;
-	}
+	font-size:12px;
+	font-family:Arial;
+}
 
 /*Titulo*/
 #crmWebToEntityForm strong {
@@ -41,13 +40,13 @@
 	font-size:16pt;
 	font-family:Arial, sans-serif; 
 	padding:0px;
-	}
+}
 
 #crmWebToEntityForm a {
 	color:#0099CC;
-	}
+}
 
-/*Informacion a visitante*/
+/*Texto antes de los inputs*/
 #crmWebToEntityForm p {
 	color:#3e6680;
 	font-size:12px;
@@ -55,13 +54,15 @@
 	width:100%;
 	line-height:18px; 
 	text-align:justify;
-	}
-
-input#privacyTool{
-	width: 13px;
 }
 
-div.dIB{
+/*el checkbox*/
+#privacyTool {
+	width: 14px;
+}
+
+/*Contenedor del checbox*/
+div.vat {
 	color: #000000; 
 	font-size: 12px; 
 	font-family: sans-serif;
@@ -69,6 +70,8 @@ div.dIB{
 	vertical-align: top;
 }
 
+
+/*Contenedor de politica de datos*/
 div.fw200 {
 	text-align:justify; 
 	font-size:12px; 
@@ -79,4 +82,16 @@ div.fw200 {
 	width:90%; 
 	display: inline-block; 
 	color:#000000;
+}
+
+/*Botón de enviar*/
+#formsubmit {
+	background-color:#ff6600;
+	border-radius:4px;
+	opacity:0.5;
+	font-size:14px;
+	border:0;
+	color:#ffffff;
+	width:400px; 
+	height:36px
 }
