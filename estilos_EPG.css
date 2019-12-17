@@ -1,5 +1,5 @@
 #crmWebToEntityForm table {
-	width:400px;
+	width:70%;
 	background-color:#ffffff;
 	padding-right:20px;
 	padding-left:20px;
@@ -61,6 +61,10 @@
 	height: 24px;	
 }
 
+input#privacyTool::after {
+	background-color: orange;
+}
+
 /*Contenedor del checbox*/
 div.mT2 {
 	color: #000000; 
@@ -95,6 +99,6 @@ div.fw200 {
 	font-size:14px;
 	border:0;
 	color:#ffffff;
-	width:400px; 
+	width:100%; 
 	height:36px
 }
